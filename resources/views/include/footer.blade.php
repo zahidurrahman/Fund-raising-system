@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="foot-about">
-                        <h2><a class="foot-logo" href="#"><img src="images/foot-logo.png" alt=""></a></h2>
+                        <h2><a class="foot-logo" href="#"><img src="images/fund me logo.jpg" alt=""></a></h2>
 
-                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Mauris temp us vestib ulum mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.Lorem ipsum dolo.</p>
+                        <p>"Fund ME" is a web-based system for students who are underprivileged and facing financial difficulties during the study. This platform will integrate Donors and Students where students will create a campaign to raise funds for their studies and donors will try to donate as much as they can. It will bring a better life for needy students and make a difference.</p>
 
                         <ul class="d-flex flex-wrap align-items-center">
                             <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
@@ -61,9 +61,9 @@
                         <h2>Contact</h2>
 
                         <ul>
-                            <li><i class="fa fa-phone"></i><span>+45 677 8993000 223</span></li>
-                            <li><i class="fa fa-envelope"></i><span>office@template.com</span></li>
-                            <li><i class="fa fa-map-marker"></i><span>Main Str. no 45-46, b3, 56832, Los Angeles, CA</span></li>
+                            <li><i class="fa fa-phone"></i><span>+60 1112112659</span></li>
+                            <li><i class="fa fa-envelope"></i><span>office@fundme.com</span></li>
+                            <li><i class="fa fa-map-marker"></i><span>Jalan Iram-UNITEN, Kajang, Selangor, MY</span></li>
                         </ul>
                     </div><!-- .foot-contact -->
 
@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-12">
                     <p class="m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <a href="/" target="_blank">Fund Me</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div><!-- .col-12 -->
             </div><!-- .row -->

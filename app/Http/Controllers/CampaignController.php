@@ -65,7 +65,13 @@ class CampaignController extends Controller
         $campaign->cover_image =$photo;
         $campaign->document =$name_file;
         $campaign->save();
-        return redirect('/user_campaign_all')->with('success','Campaign Successfully Added');
+        //redirect based on role
+        if(Auth::user()->role =='1'){
+            return redirect('/admin_manage_campaign')->with('success','Campaign Successfully Added');
+        }else{
+            return redirect('/user_campaign_all')->with('success','Campaign Successfully Added');
+        }
+
     }
 
     public function del_campaign($id)
@@ -93,11 +99,28 @@ class CampaignController extends Controller
             return redirect('/campaign_university')->with('error','Campaign Already Activated');
         }else{
 
-            $approve->campaign_status=1;
+            $approve->campaign_status=2;
             $approve->save();
-            return redirect('/campaign_university')->with('status','Campaign Successfully Activated');
+            return redirect('/campaign_university')->with('status','Campaign Successfully Verified');
         }
 
+    }
+
+    public function active_campaign($id)
+    {
+
+        $approve = Campaign::find($id);
+        $approve->campaign_status=1;
+        $approve->save();
+        return redirect('/admin_manage_campaign')->with('status','Campaign Successfully Activated');
+    }
+    public function inactive_campaign($id)
+    {
+
+        $approve = Campaign::find($id);
+        $approve->campaign_status=2;
+        $approve->save();
+        return redirect('/admin_manage_campaign')->with('status','Campaign Successfully InActivated');
     }
     public function show(Campaign $campaign)
     {
@@ -173,7 +196,13 @@ class CampaignController extends Controller
         $userdata->cover_image =$photo;
         $userdata->document =$name_file;
         $userdata->save();
-        return redirect('/user_campaign_all')->with('status','Campaign Successfully Updated');
+        //redirect based on role
+        if(Auth::user()->role =='1'){
+            return redirect('/admin_manage_campaign')->with('success','Campaign Successfully Updated');
+        }else{
+            return redirect('/user_campaign_all')->with('status','Campaign Successfully Updated');
+        }
+
     }
 
     /**

@@ -20,13 +20,16 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
     protected function authenticated() {
-      if (Auth::user()->user_status =='1'){
-          if (Auth::user()->role =='1'){
-            return redirect('/dashboard');
-          }else{
-            return redirect('/');
-          }
-      }else{
+      if (Auth::user()->user_status =='1' && Auth::user()->role =='0'){
+          return redirect('/');
+      }
+      else if (Auth::user()->user_status =='1' && Auth::user()->role =='1'){
+        return redirect('/dashboard');
+      }
+      else if (Auth::user()->user_status =='1' && Auth::user()->role =='2'){
+        return redirect('/campaign_university');
+      }
+      else{
          Auth::logout();
          return redirect('/login')->with('error','Your account has not beed activated Yet.Contact admin@gmail.com');
       }

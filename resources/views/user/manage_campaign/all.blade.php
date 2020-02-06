@@ -4,11 +4,15 @@
         <div class="row">
             <div class="col-lg-12">
                 <h4>
-                    campaign List
+                    Campaign List
                     @if (session('status'))
                         <span style="float:right;color:green;" >  {{ session('status') }}</span>
                     @endif
+                    @if (session('error'))
+                        <span style="float:right;color:red;" >  {{ session('error') }}</span>
+                    @endif
                 </h4>
+
                 <div class="card">
                     <div class="card-header">
 
@@ -51,7 +55,7 @@
                                         <td>{{ $user->target_amount }}</td>
                                         <td>
                                             <?php
-                                             $total = DB::table('pays')->where('campaign_id', $user->id)->sum('amount');
+                                            $total = DB::table('pays')->where('campaign_id', $user->id)->sum('amount');
                                             ?>
                                             {{$total}}
                                         </td>
@@ -62,11 +66,14 @@
                                             @if($user->campaign_status=='0')
                                                 <button class="btn btn-warning btn-sm">Inactive</button>
                                             @endif
+                                            @if($user->campaign_status=='2')
+                                                <button class="btn btn-info btn-sm">Verified By University</button>
+                                            @endif
                                         </td>
                                         <td>
                                             <a class="btn btn-info btn-sm" href="/view_campaign?id={{$user->id}}">View</a>
                                             <a class="btn btn-primary btn-sm" href="/edit_campaign?id={{$user->id}}">Edit</a>
-                                            <a class="btn btn-danger btn-sm" style="margin-top:0px;" href="{{'/del_campaign/'.$user->id}}">Delete</a>
+                                        <!-- <a class="btn btn-danger btn-sm" style="margin-top:0px;" href="{{'/del_campaign/'.$user->id}}">Delete</a> -->
 
                                         </td>
                                     </tr>

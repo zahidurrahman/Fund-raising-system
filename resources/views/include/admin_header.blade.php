@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin-panel</title>
+    <title>Fund Me</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -30,7 +30,6 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
 
-
   </head>
   <body>
     <!-- Side Navbar -->
@@ -39,7 +38,7 @@
         <!-- Sidebar Header    -->
         <div class="sidenav-header d-flex align-items-center justify-content-center">
           <!-- User Info-->
-          <div class="sidenav-header-inner text-center"><img src="admin/img/avatar-7.jpg" alt="person" class="img-fluid rounded-circle">
+          <div class="sidenav-header-inner text-center"><img src="admin/img/profile icon.png" alt="person" class="img-fluid rounded-circle">
             <h2 class="h5">{{Auth::user()->name}}</h2>
               <span>
                  @if(Auth::user()->role =='1')
@@ -49,7 +48,7 @@
                   Student
                  @endif
                  @if(Auth::user()->role =='2')
-                  University
+                  University Representative
                  @endif
               </span>
 
@@ -64,18 +63,21 @@
             @if(Auth::user()->role =='1')
               <li><a href="/dashboard"> <i class="icon-home"></i>Dashboard </a></li>
               <li><a href="/user-list"> <i class="icon-user"></i>Manage User </a></li>
+              <li><a href="/admin_manage_campaign"> <i class="icon-form"></i>Manage Campaign </a></li>
               <li><a href="/" target="_blank"> <i class="icon-picture"></i>Visit Site</a></li>
             @endif
             @if(Auth::user()->role =='2')
-              <li><a href="/campaign_university"> <i class="icon-form"></i>Approve Campaign</a></li>
+              <li><a href="/campaign_university"> <i class="icon-form"></i>Verify Campaign</a></li>
               <li><a href="/edit-profile"> <i class="icon-form"></i>Edit Profile</a></li>
                 <li><a href="/" target="_blank"> <i class="icon-picture"></i>Visit Site</a></li>
             @endif
             @if(Auth::user()->role =='0')
               <li><a href="/user_campaign_all"> <i class="icon-form"></i>Manage Campaign</a></li>
+              <li><a href="/user_total_donation"> <i class="icon-form"></i>Your Donation</a></li>
               <li><a href="/edit-profile"> <i class="icon-form"></i>Edit Profile</a></li>
                 <li><a href="/" target="_blank"> <i class="icon-picture"></i>Visit Site</a></li>
             @endif
+          </ul>
         </div>
       </div>
     </nav>
@@ -86,7 +88,17 @@
           <div class="container-fluid">
             <div class="navbar-holder d-flex align-items-center justify-content-between">
               <div class="navbar-header"><a id="toggle-btn" href="#" class="menu-btn"><i class="icon-bars"> </i></a><a href="index.html" class="navbar-brand">
-                  <div class="brand-text d-none d-md-inline-block"><strong class="text-warning">Admin</strong><strong class="text-primary">Dashboard</strong></div></a></div>
+                  <div class="brand-text d-none d-md-inline-block"><strong class="text-warning">
+                      @if(Auth::user()->role =='1')
+                        Admin
+                      @endif
+                      @if(Auth::user()->role =='0')
+                        Campaign Creator
+                      @endif
+                      @if(Auth::user()->role =='2')
+                        University representative
+                      @endif
+                    </strong><strong class="text-primary">Dashboard</strong></div></a></div>
               <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
                 <!-- Log out-->
                 <li class="nav-item">

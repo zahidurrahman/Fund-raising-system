@@ -15,21 +15,21 @@
             <div class="col-12 col-lg-6 order-2 order-lg-1">
                 <div class="welcome-content">
                     <header class="entry-header">
-                        <h2 class="entry-title">Wellcome to our Charity</h2>
+                        <h2 class="entry-title">Wellcome to Fund Me</h2>
                     </header><!-- .entry-header -->
 
                     <div class="entry-content mt-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus. Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.</p>
+                        <p>"Fund ME" is a web-based system for students who are underprivileged and facing financial difficulties during the study. This platform will integrate Donors and Students where students will create a campaign to raise funds for their studies and donors will try to donate as much as they can. It will bring a better life for needy students and make a difference.</p>
                     </div><!-- .entry-content -->
 
                     <div class="entry-footer mt-5">
-                        <a href="#" class="btn gradient-bg mr-2">Read More</a>
+                        <a href="/campaign-all" class="btn gradient-bg mr-2">Read More</a>
                     </div><!-- .entry-footer -->
                 </div><!-- .welcome-content -->
             </div><!-- .col -->
 
             <div class="col-12 col-lg-6 order-1 order-lg-2">
-                <img src="images/welcome.jpg" alt="welcome">
+                <img src="images/about1.jpg" alt="welcome">
             </div><!-- .col -->
         </div><!-- .row -->
     </div><!-- .container -->
@@ -87,13 +87,13 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="testimonial-cont">
                     <div class="entry-content">
-                        <p>We love to help all the children that have problems in the world. After 15 years we have many goals achieved.</p>
+                        <p>We love to help all the Students that have financial problems in their University. After 04 months we have many goals achieved.</p>
                     </div>
 
                     <div class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                        <img src="images/testimonial-1.jpg" alt="">
+                        <img src="images/mosiur (2).jpg" alt="">
 
-                        <h4>Maria Williams, <span>Volunteer</span></h4>
+                        <h4>Mosiur Rahman, <span>Volunteer</span></h4>
                     </div>
                 </div>
             </div>
@@ -101,13 +101,13 @@
             <div class="col-12 col-md-6 offset-lg-2 col-lg-5">
                 <div class="testimonial-cont">
                     <div class="entry-content">
-                        <p>We love to help all the children that have problems in the world. After 15 years we have many goals achieved.</p>
+                        <p>"Our Motto is to spread kindness through effective donation to help the brilliance to shine."</p>
                     </div>
 
                     <div class="entry-footer d-flex flex-wrap align-items-center mt-5">
                         <img src="images/testimonial-2.jpg" alt="">
 
-                        <h4>Cristian James, <span>Volunteer</span></h4>
+                        <h4>Safat Bin Wali, <span>Volunteer</span></h4>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
             <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                 <h2>Help us so we can help others</h2>
 
-                <a class="btn orange-border" href="#">Donate now</a>
+                <a class="btn orange-border" href="/campaign-all">Donate now</a>
             </div>
         </div>
     </div>

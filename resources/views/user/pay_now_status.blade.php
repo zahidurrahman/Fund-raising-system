@@ -17,12 +17,7 @@
                     <h2 style="color:green;">Congratulations Payment Successfully Done</h2>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, conse ctetur.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris tempus vestib ulum mauris quis aliquam.
-                        Integer accu msan sodales odio,
-                        id tempus velit ullamc.
+                        Thanks for your donation. Keep in touch. God Bless You.
                     </p>
 
                 </div>
@@ -31,10 +26,10 @@
 
 
 
-            </div><!-- .col -->
+        </div><!-- .col -->
 
-        </div><!-- .row -->
-    </div><!-- .container -->
+    </div><!-- .row -->
+</div><!-- .container -->
 </div>
 
 

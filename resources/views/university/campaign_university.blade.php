@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h4>
-                    campaign List
+                    Campaign List
                     @if (session('status'))
                         <span style="float:right;color:green;" >  {{ session('status') }}</span>
                     @endif
@@ -65,10 +65,21 @@
                                             @if($user->campaign_status=='0')
                                                 <button class="btn btn-warning btn-sm">Inactive</button>
                                             @endif
+                                            @if($user->campaign_status=='2')
+                                                <button class="btn btn-info btn-sm">Waiting Admin Approval</button>
+                                            @endif
                                         </td>
                                         <td>
                                             <a class="btn btn-info btn-sm" href="/view_campaign?id={{$user->id}}">View</a>
-                                            <a class="btn btn-success btn-sm" style="margin-top:0px;" href="{{'/approve_campaign/'.$user->id}}">Approve Now</a>
+                                            @if($user->campaign_status=='0')
+                                            <a class="btn btn-warning btn-sm" style="margin-top:0px;" href="{{'/approve_campaign/'.$user->id}}">Mark As Verified</a>
+                                            @endif
+                                            @if($user->campaign_status=='2')
+                                            <button class="btn btn-info btn-sm"  style="margin-top:0px;">Already Verified</button>
+                                            @endif
+                                            @if($user->campaign_status=='1')
+                                            <button class="btn btn-success btn-sm"  style="margin-top:0px;">Approved by Admin</button>
+                                            @endif
 
                                         </td>
                                     </tr>

@@ -17,12 +17,7 @@
                     <h2>We Accept Paypal</h2>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, conse ctetur.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris tempus vestib ulum mauris quis aliquam.
-                        Integer accu msan sodales odio,
-                        id tempus velit ullamc.</p>
+                        For now we accept Paypal payments only. In future we will implement all the payment gateway  including online banking. Please pay through your Paypal account by following the steps. Thank You.  </p>
 
                 </div>
             </div><!-- .col -->

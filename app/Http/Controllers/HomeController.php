@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use App\Charts\MyChart;
 class HomeController extends Controller
 {
     /**
@@ -21,7 +22,16 @@ class HomeController extends Controller
 
     public function index()
     {
+
         return view('home');
+    }
+
+    public function dashboard()
+    {
+//        $chart = new MyChart;
+//        $chart->labels(['One', 'Two', 'Three', 'Four']);
+//        $chart->dataset('My dataset', 'line', [1, 2, 3, 4]);
+        return view('admin.dashboard');
     }
 
     public function edit_profile(Request $request)

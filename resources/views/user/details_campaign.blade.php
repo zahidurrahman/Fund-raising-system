@@ -108,7 +108,7 @@
                                                 </a></span>
                                         </div>
 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>This campaign is verified by the University Representative from the University. All the Campaign is accepted after verification.</p>
                                     </div>
                                 </li>
                             @endforeach

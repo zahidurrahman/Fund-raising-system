@@ -4,24 +4,24 @@
 <div class="swiper-container hero-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide hero-content-wrap">
-      <img src="images/hero.jpg" alt="">
+      <img src="images/welcome1.1.jpg" alt="">
 
       <div class="hero-content-overlay position-absolute w-100 h-100">
         <div class="container h-100">
           <div class="row h-100">
             <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
               <header class="entry-header">
-                <h1>Donate</h1>
-                <h4>4 a better world</h4>
+                <h1>Fund Me</h1>
+                <h4>"Lets Spread Kindness"</h4>
               </header><!-- .entry-header -->
 
               <div class="entry-content mt-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
+                <p>A Platform For Financially Unstable And Under Privileged Students To Get Financial Support.</p>
               </div><!-- .entry-content -->
 
               <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                <a href="#" class="btn orange-border">Read More</a>
+                <a href="/campaign-all" class="btn gradient-bg mr-2">Donate Now</a>
+                <a href="/campaign-all" class="btn orange-border">Read More</a>
               </footer><!-- .entry-footer -->
             </div><!-- .col -->
           </div><!-- .row -->
@@ -30,24 +30,24 @@
     </div><!-- .hero-content-wrap -->
 
     <div class="swiper-slide hero-content-wrap">
-      <img src="images/hero.jpg" alt="">
+      <img src="images/welcome3.3.jpg" alt="">
 
       <div class="hero-content-overlay position-absolute w-100 h-100">
         <div class="container h-100">
           <div class="row h-100">
             <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
               <header class="entry-header">
-                <h1>Donate</h1>
-                <h4>4 a better world</h4>
+                <h1> </h1>
+                <h4> </h4>
               </header><!-- .entry-header -->
 
               <div class="entry-content mt-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
+                <p> </p>
               </div><!-- .entry-content -->
 
               <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                <a href="#" class="btn orange-border">Read More</a>
+                <a href="/campaign-all" class="btn gradient-bg mr-2">Donate Now</a>
+                <a href="/campaign-all" class="btn orange-border">Read More</a>
               </footer><!-- .entry-footer -->
             </div><!-- .col -->
           </div><!-- .row -->
@@ -56,24 +56,24 @@
     </div><!-- .hero-content-wrap -->
 
     <div class="swiper-slide hero-content-wrap">
-      <img src="images/hero.jpg" alt="">
+      <img src="images/welcome2.2.jpg" alt="">
 
       <div class="hero-content-overlay position-absolute w-100 h-100">
         <div class="container h-100">
           <div class="row h-100">
             <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
               <header class="entry-header">
-                <h1>Donate</h1>
-                <h4>4 a better world</h4>
+                <h1>Fund Me</h1>
+                <h4>"Lets Spread Kindness"</h4>
               </header><!-- .entry-header -->
 
               <div class="entry-content mt-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
+                <p>A Platform For Financially Unstable And Under Privileged Students To Get Financial Support.</p>
               </div><!-- .entry-content -->
 
               <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                <a href="#" class="btn orange-border">Read More</a>
+                <a href="/campaign-all" class="btn gradient-bg mr-2">Donate Now</a>
+                <a href="/campaign-all" class="btn orange-border">Read More</a>
               </footer><!-- .entry-footer -->
             </div><!-- .col -->
           </div><!-- .row -->
@@ -113,7 +113,8 @@
           </header>
 
           <div class="entry-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
+            <p>Register and become a volunteer. “Everybody can be great. Because anybody can serve. You don’t have to have a college degree to serve. You don’t have to make your subject and your verb agree to serve…. You don’t have to know the second theory of thermodynamics in physics to serve. You only need a heart full of grace. A soul generated by love.”
+              ~Martin Luther King, Jr. </p>
           </div>
         </div>
       </div>
@@ -126,11 +127,12 @@
           </figure>
 
           <header class="entry-header">
-            <h3 class="entry-title">Dance & Music</h3>
+            <h3 class="entry-title">Donate & Create Happiness</h3>
           </header>
 
           <div class="entry-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
+            <p>Donate money to underprivileged students and they will be future donor. Lets pay it forward to one  to another. Together we will bring a world where there will be no word of "underprivileged".  “My happiness comes from the donation of my life in many ways for the current and for the future generations.”
+              ― Debasish Mridha. </p>
           </div>
         </div>
       </div>
@@ -143,11 +145,11 @@
           </figure>
 
           <header class="entry-header">
-            <h3 class="entry-title">Online Conference</h3>
+            <h3 class="entry-title">Today's Graduate Future's Leader</h3>
           </header>
 
           <div class="entry-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
+            <p>Lets protect our students from being dropouts because of money. There are thousands of cases where students are being dropouts from university because lack of funding and financial support. Lets help them to graduate and they will be our future leader of our nation. Lets protect them. Help them by donating some money. Even Little donations matters. </p>
           </div>
         </div>
       </div>
@@ -161,11 +163,11 @@
       <div class="col-12 col-lg-6 order-2 order-lg-1">
         <div class="welcome-content">
           <header class="entry-header">
-            <h2 class="entry-title">Wellcome to our Charity</h2>
+            <h2 class="entry-title">Welcome to Fund Me</h2>
           </header><!-- .entry-header -->
 
           <div class="entry-content mt-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus. Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.</p>
+            <p>"Fund ME" is a web-based system for students who are underprivileged and facing financial difficulties during the study. This platform will integrate Donors and Students where students will create a campaign to raise funds for their studies and donors will try to donate as much as they can. It will bring a better life for needy students and make a difference.</p>
           </div><!-- .entry-content -->
 
           <div class="entry-footer mt-5">
@@ -175,7 +177,7 @@
       </div><!-- .col -->
 
       <div class="col-12 col-lg-6 mt-4 order-1 order-lg-2">
-        <img src="images/welcome.jpg" alt="welcome">
+        <img src="images/about1.jpg" alt="welcome">
       </div><!-- .col -->
     </div><!-- .row -->
   </div><!-- .container -->
@@ -622,10 +624,10 @@
     <div class="row align-items-end">
       <div class="coL-12 col-lg-6">
         <div class="section-heading">
-          <h2 class="entry-title">We love to help all the children that have problems in the world. After 15 years we have many goals achieved.</h2>
+          <h2 class="entry-title">We love to help all the Students that have financial problems in their University. After 04 months we have many goals achieved.</h2>
 
-          <p class="mt-5">Dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet.</p>
         </div><!-- .section-heading -->
+        <p class="mt-5">Our some of the achivement are showing on the right side of the box.</p>
       </div><!-- .col -->
 
       <div class="col-12 col-lg-6">
@@ -637,11 +639,11 @@
               </div>
 
               <div class="d-flex justify-content-center align-items-baseline">
-                <div class="start-counter" data-to="120" data-speed="2000"></div>
-                <div class="counter-k">K</div>
+                <div class="start-counter" data-to="10" data-speed="2000"></div>
+                <div class="counter-k">K RM</div>
               </div>
 
-              <h3 class="entry-title">Children helped</h3><!-- entry-title -->
+              <h3 class="entry-title">Fund Raised</h3><!-- entry-title -->
             </div><!-- counter-box -->
           </div><!-- .col -->
 
@@ -652,10 +654,10 @@
               </div>
 
               <div class="d-flex justify-content-center align-items-baseline">
-                <div class="start-counter" data-to="79" data-speed="2000"></div>
+                <div class="start-counter" data-to="05" data-speed="2000"></div>
               </div>
 
-              <h3 class="entry-title">Water wells</h3><!-- entry-title -->
+              <h3 class="entry-title">Successful Campaigns</h3><!-- entry-title -->
             </div><!-- counter-box -->
           </div><!-- .col -->
 
@@ -666,10 +668,10 @@
               </div>
 
               <div class="d-flex justify-content-center align-items-baseline">
-                <div class="start-counter" data-to="253" data-speed="2000"></div>
+                <div class="start-counter" data-to="50" data-speed="2000"></div>
               </div>
 
-              <h3 class="entry-title">Volunteeres</h3><!-- entry-title -->
+              <h3 class="entry-title">Active Volunteers</h3><!-- entry-title -->
             </div><!-- counter-box -->
           </div><!-- .col -->
         </div><!-- .milestones -->

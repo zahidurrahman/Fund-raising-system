@@ -16,7 +16,7 @@
                 <div class="entry-content">
                     <h2>Get In touch with us</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, conse ctetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Integer accu msan sodales odio, id tempus velit ullamc.</p>
+                    <p>Share your great experience with FundMe. Please write to us. We are eagerly waiting to hearing from you. Your ideas or any constructive criticism are highly welcomed and appreciated.</p>
 
                     <ul class="contact-social d-flex flex-wrap align-items-center">
                         <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
@@ -28,9 +28,9 @@
                     </ul>
 
                     <ul class="contact-info p-0">
-                        <li><i class="fa fa-phone"></i><span>+45 677 8993000 223</span></li>
-                        <li><i class="fa fa-envelope"></i><span>office@template.com</span></li>
-                        <li><i class="fa fa-map-marker"></i><span>Main Str. no 45-46, b3, 56832, Los Angeles, CA</span></li>
+                        <li><i class="fa fa-phone"></i><span>+60 1112112659</span></li>
+                        <li><i class="fa fa-envelope"></i><span>office@fundme.com</span></li>
+                        <li><i class="fa fa-map-marker"></i><span>Jalan Iram-UNITEN, Kajang, Selangor, MY</span></li>
                     </ul>
                 </div>
             </div><!-- .col -->

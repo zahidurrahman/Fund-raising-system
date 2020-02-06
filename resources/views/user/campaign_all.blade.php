@@ -65,9 +65,7 @@
 
 								<div class="entry-content">
 									<p class="m-0">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-										Mauris tempus vestib ulum mauris.
-										Lorem ipsum dolor sit amet, consectetur.
+										This campaign is verified by the University Representative from the University. All the Campaign is accepted after verification.
 
 									</p>
 								</div><!-- .entry-content -->
